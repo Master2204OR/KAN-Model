@@ -6,7 +6,7 @@ from sklearn.utils import shuffle
 
 
 
-def preprocess_data(file = 'creditcard.csv', test_size = 0.2,  random_state=42):
+def preprocess_data(file, test_size,  random_state=42):
 
     data = pd.read_csv(file)
 
